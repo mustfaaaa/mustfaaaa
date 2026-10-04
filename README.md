@@ -2,9 +2,9 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,50:7F00FF,100:FF00A8&height=220&section=header&text=Mustafa&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%7C%20Flutter%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=20)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=900&color=00C9FF&center=true&vCenter=true&width=720&lines=Building+intelligent+apps+that+solve+real+problems;Turning+ideas+into+clean%2C+useful+software;Exploring+AI%2C+Flutter+and+modern+web+tech;Welcome+to+my+GitHub+%F0%9F%91%8B)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=24&amp;duration=2600&amp;pause=900&amp;color=00C9FF&amp;center=true&amp;vCenter=true&amp;width=720&amp;lines=Building+intelligent+apps+that+solve+real+problems;Turning+ideas+into+clean%2C+useful+software;Exploring+AI%2C+Flutter+and+modern+web+tech;Welcome+to+my+GitHub+%F0%9F%91%8B" alt="Building intelligent apps that solve real problems" />
 
-<img src="./assets/developer-animation.svg" width="850" alt="Animated developer terminal" />
+<img src="./developer-animation.svg" width="850" alt="Animated developer terminal" />
 
 <p>
   <a href="https://github.com/mustfaaaa?tab=followers"><img src="https://img.shields.io/github/followers/mustfaaaa?label=Followers&style=for-the-badge&logo=github&color=7F00FF" alt="GitHub followers" /></a>
@@ -97,7 +97,13 @@ const mustafa = {
 
 <div align="center">
 
-<img src="./assets/code-cycle.svg" width="720" alt="Animated build cycle" />
+<img src="./code-cycle.svg" width="720" alt="Animated build cycle" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mustfaaaa/mustfaaaa/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mustfaaaa/mustfaaaa/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/mustfaaaa/mustfaaaa/output/github-contribution-grid-snake.svg" alt="Mustafa's GitHub contribution animation" />
+</picture>
 
 </div>
 
