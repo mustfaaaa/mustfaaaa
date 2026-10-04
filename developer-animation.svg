@@ -1,0 +1,58 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#160B2D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C9FF"/>
+      <stop offset="0.5" stop-color="#7F00FF"/>
+      <stop offset="1" stop-color="#FF00A8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="terminalClip"><rect x="77" y="90" width="746" height="166" rx="8"/></clipPath>
+  </defs>
+
+  <rect x="4" y="4" width="892" height="312" rx="24" fill="url(#panel)" stroke="url(#accent)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="54" cy="52" r="7" fill="#FF5F56"/>
+  <circle cx="78" cy="52" r="7" fill="#FFBD2E"/>
+  <circle cx="102" cy="52" r="7" fill="#27C93F"/>
+  <text x="450" y="59" text-anchor="middle" fill="#8B949E" font-family="monospace" font-size="15">mustafa@github: ~/build-the-future</text>
+
+  <rect x="76" y="88" width="748" height="170" rx="10" fill="#080C12" stroke="#30363D"/>
+  <g clip-path="url(#terminalClip)" font-family="monospace" font-size="18">
+    <text x="102" y="124" fill="#00C9FF">$</text>
+    <text x="126" y="124" fill="#E6EDF3">mustafa --start</text>
+
+    <g opacity="0">
+      <text x="102" y="160" fill="#7F00FF">›</text>
+      <text x="126" y="160" fill="#C9D1D9">Loading AI ideas...</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.12;0.18;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="102" y="196" fill="#FF00A8">›</text>
+      <text x="126" y="196" fill="#C9D1D9">Building with Flutter, Python &amp; TypeScript</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.40;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <text x="102" y="232" fill="#27C93F">✓</text>
+      <text x="126" y="232" fill="#27C93F">Ready to create something amazing!</text>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.64;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <rect x="126" y="240" width="11" height="3" fill="#00C9FF">
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <circle cx="64" cy="286" r="4" fill="#00C9FF" filter="url(#glow)">
+    <animate attributeName="cx" values="64;836;64" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M64 286H836" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+</svg>
